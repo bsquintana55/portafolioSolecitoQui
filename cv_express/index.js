@@ -16,7 +16,6 @@ app.use('/cv', require('./router/rutasCV'))
 
 
 //genera 404 
-
 app.use((req, res, next) => {
     res.status(404).sendFile(__dirname + '/public/404.html')
 })
