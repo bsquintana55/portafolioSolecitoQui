@@ -14,6 +14,10 @@ app.set('views',__dirname + '/views' )
 //rutas del curriculum
 app.use('/cv', require('./router/rutasCV'))
 
+app.get('/', (req, res) => {
+
+  res.render('index')
+})
 
 //genera 404 
 app.use((req, res, next) => {
