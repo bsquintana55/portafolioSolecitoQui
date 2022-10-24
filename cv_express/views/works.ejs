@@ -15,55 +15,32 @@
 
     <!-- CSS
     ================================================== -->
-    <link rel="stylesheet" href="css/base.css">
-    <link rel="stylesheet" href="css/vendor.css">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="/css/base.css">
+    <link rel="stylesheet" href="/css/vendor.css">
+    <link rel="stylesheet" href="/css/main.css">
 
     <!-- script
     ================================================== -->
-    <script src="js/modernizr.js"></script>
-    <script src="js/pace.min.js"></script>
+    <script src="/js/modernizr.js"></script>
+    <script src="/js/pace.min.js"></script>
 
     <!-- favicons
     ================================================== -->
-    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="./images/icons/miau.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="./images/icons/miau.png">
-    <link rel="manifest" href="site.webmanifest">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/../images/icons/miau.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/../images/icons/miau.png">
+    <link rel="manifest" href="/site.webmanifest">
 
 </head>
 
 <body id="top">
 
-    <div id="preloader">
-        <div id="loader"></div>
-    </div>
-
     <!-- site header
     ================================================== -->
     <header class="s-header">
-
-
-        <nav class="header-nav-wrap">
-            <ul class="header-main-nav">
-                <li class="current"><a class="" href="/" title="intro">Inicio</a></li>
-                <li><a class="" href="/about" title="about">About</a></li>
-                <li><a class="" href="/servicies" title="services">Services</a></li>
-                <li><a class="" href="/works" title="wanna">I wanna</a></li>
-                <li><a class="" href="/me" title="contact us">Contact</a></li>	
-            </ul>
-
-            <ul class="header-social">
-                <li><a href="#0"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
-                <li><a href="#0"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
-                <li><a href="#0"><i class="fab fa-dribbble" aria-hidden="true"></i></a></li>
-                <li><a href="#0"><i class="fab fa-behance" aria-hidden="true"></i></a></li>
-            </ul>
-        </nav>
-
-        <a class="header-menu-toggle" href="#"><span>Menu</span></a>
-
-    </header> <!-- end s-header -->
+        <%- include('../templates/nav'); %>
+    </header> 
+    <!-- end s-header -->
 
 
 
@@ -92,12 +69,12 @@
                 <div class="masonry__brick" data-aos="fade-up">
                     <div class="item-folio">
                         <div class="item-folio__thumb">
-                            <a href="images/portfolio/pref/0_3.jpg" 
+                            <a href="/images/portfolio/pref/0_3.jpg" 
                             class="thumb-link" title="Shutterbug" data-size="1050x700">
                                 
-                                <img src="images/portfolio/pref/0_3.jpg" 
-                                     srcset="images/portfolio/pref/0_3.jpg 1x,
-                                     images/portfolio/pref/0_3.jpg 2x" alt="">
+                                <img src="/images/portfolio/pref/0_3.jpg" 
+                                     srcset="/images/portfolio/pref/0_3.jpg 1x,
+                                     /images/portfolio/pref/0_3.jpg 2x" alt="">
                             </a>  
                         </div>
                         <div class="item-folio__text">
@@ -115,11 +92,12 @@
                 <div class="masonry__brick" data-aos="fade-up">
                     <div class="item-folio">
                         <div class="item-folio__thumb">
-                            <a href="images/portfolio/pref/0_7.png" 
+                            <a href="/images/portfolio/pref/0_7.png" 
                             class="thumb-link" title="Woodcraft" data-size="1050x700">
 
-                                <img src="images/portfolio/pref/0_7.png" 
-                                     srcset="images/portfolio/pref/0_7.png 1x, images/portfolio/pref/0_7.png 2x" alt="">
+                                <img src="/images/portfolio/pref/0_7.png" 
+                                     srcset="/images/portfolio/pref/0_7.png 1x, 
+                                     /images/portfolio/pref/0_7.png 2x" alt="">
                             </a>
                             </div>
                         <div class="item-folio__text">
@@ -138,9 +116,10 @@
                     <div class="item-folio">
                             
                         <div class="item-folio__thumb">
-                            <a href="images/portfolio/pref/0_4.png" class="thumb-link" title="The Beetle Car" data-size="1050x700">
-                                <img src="images/portfolio/pref/0_4.png"
-                                     srcset="images/portfolio/pref/0_4.png 1x, images/portfolio/pref/0_4.png 2x" alt="">
+                            <a href="/images/portfolio/pref/0_4.png" class="thumb-link" title="The Beetle Car" data-size="1050x700">
+                                <img src="/images/portfolio/pref/0_4.png"
+                                     srcset="/images/portfolio/pref/0_4.png 1x, 
+                                     /images/portfolio/pref/0_4.png 2x" alt="">
                             </a>
                             </div>
                         <div class="item-folio__text">
@@ -158,9 +137,10 @@
                 <div class="masonry__brick" data-aos="fade-up">
                     <div class="item-folio">
                         <div class="item-folio__thumb">
-                            <a href="images/portfolio/pref/0_2.jpg" class="thumb-link" title="Grow Green" data-size="1050x700">
-                                <img src="images/portfolio/pref/0_2.jpg" 
-                                     srcset="images/portfolio/pref/0_2.jpg 1x, images/portfolio/pref/0_2.jpg 2x" alt="">
+                            <a href="/images/portfolio/pref/0_2.jpg" class="thumb-link" title="Grow Green" data-size="1050x700">
+                                <img src="/images/portfolio/pref/0_2.jpg" 
+                                     srcset="/images/portfolio/pref/0_2.jpg 1x, 
+                                     /images/portfolio/pref/0_2.jpg 2x" alt="">
                             </a>
                             </div>
                         <div class="item-folio__text">
@@ -179,9 +159,10 @@
                     <div class="item-folio">
                             
                         <div class="item-folio__thumb">
-                            <a href="images/portfolio/pref/0_8.jpg" class="thumb-link" title="Guitarist" data-size="1050x700">
-                                <img src="images/portfolio/pref/0_8.jpg" 
-                                     srcset="images/portfolio/pref/0_8.jpg 1x, images/portfolio/pref/0_8.jpg 2x" alt="">
+                            <a href="/images/portfolio/pref/0_8.jpg" class="thumb-link" title="Guitarist" data-size="1050x700">
+                                <img src="/images/portfolio/pref/0_8.jpg" 
+                                     srcset="/images/portfolio/pref/0_8.jpg 1x, 
+                                     /images/portfolio/pref/0_8.jpg 2x" alt="">
                             </a>
                             <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link" target="_blank"></a>
                         </div>
@@ -201,9 +182,10 @@
                     <div class="item-folio">
                             
                         <div class="item-folio__thumb">
-                            <a href="images/portfolio/pref/0_6.png" class="thumb-link" title="Palmeira" data-size="1050x700">
-                                <img src="images/portfolio/pref/0_6.png"
-                                     srcset="images/portfolio/pref/0_6.png 1x, images/portfolio/pref/0_6.png 2x" alt="">
+                            <a href="/images/portfolio/pref/0_6.png" class="thumb-link" title="Palmeira" data-size="1050x700">
+                                <img src="/images/portfolio/pref/0_6.png"
+                                     srcset="/images/portfolio/pref/0_6.png 1x, 
+                                     /images/portfolio/pref/0_6.png 2x" alt="">
                             </a>
                              </div>
                         <div class="item-folio__text">
@@ -227,25 +209,18 @@
     
     <!-- footer
     ================================================== -->
-    <footer>
-        <div class="row">
-            <div class="column large-full ss-copyright">
-                <span>© Copyright Epitome 2019</span> 
-                <span>Design by <a href="https://www.styleshout.com/">StyleShout</a></span>
-            </div>            
-
-            <div class="ss-go-top">
-                <a class="smoothscroll" title="Back to Top" href="#top"></a>
-            </div>
-        </div>
-    </footer>
+ 
+    <%- include('../templates/footer'); %>
+ 
+    <!-- footer
+    ================================================== -->
 
 
       <!-- Java Script
     ================================================== -->
-    <script src="js/jquery-3.2.1.min.js"></script>
-    <script src="js/plugins.js"></script>
-    <script src="js/main.js"></script>
+    <script src="/js/jquery-3.2.1.min.js"></script>
+    <script src="/js/plugins.js"></script>
+    <script src="/js/main.js"></script>
 
 
 

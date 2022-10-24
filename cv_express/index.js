@@ -11,26 +11,8 @@ app.set('view engine', 'ejs')
 
 app.set('views',__dirname + '/views' )
 
-
-app.get('/', (req, res) => {
-
-    res.render('index')
-})
-app.get('/about', (req, res) => {
-
-    res.render('about') 
-})
-app.get('/me', (req, res) => {
-    res.render('me') 
-})
-app.get('/servicies', (req, res) => {
-    res.render('servicies') 
-})
-
-app.get('/works', (req, res) => {
-    res.render('works') 
-})
-
+//rutas del curriculum
+app.use('/cv', require('./router/rutasCV'))
 
 
 //genera 404 
